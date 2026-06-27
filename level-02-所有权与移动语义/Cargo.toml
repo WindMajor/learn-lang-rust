@@ -1,0 +1,5 @@
+[package]
+name = "level-02-ownership"
+version = "0.1.0"
+edition = "2021"
+description = "Level 02: 所有权与移动语义 —— Move/Copy/Clone"

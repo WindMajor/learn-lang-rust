@@ -1,0 +1,5 @@
+[package]
+name = "level-04-strings-collections"
+version = "0.1.0"
+edition = "2021"
+description = "Level 04: 字符串与集合基础 —— String/&str/Vec/切片"

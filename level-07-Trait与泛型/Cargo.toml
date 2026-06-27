@@ -1,0 +1,5 @@
+[package]
+name = "level-07-trait-generics"
+version = "0.1.0"
+edition = "2021"
+description = "Level 07: Trait 与泛型 —— 接口、单态化、关联类型、孤儿规则"

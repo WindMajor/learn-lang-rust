@@ -1,0 +1,5 @@
+[package]
+name = "level-08-lifetimes"
+version = "0.1.0"
+edition = "2021"
+description = "Level 08: 生命周期标注 —— 编译期杜绝悬垂引用"

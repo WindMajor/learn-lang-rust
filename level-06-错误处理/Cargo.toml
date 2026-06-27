@@ -1,0 +1,5 @@
+[package]
+name = "level-06-error-handling"
+version = "0.1.0"
+edition = "2021"
+description = "Level 06: 错误处理 —— Result/Option/?/panic!"

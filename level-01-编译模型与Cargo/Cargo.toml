@@ -1,0 +1,16 @@
+[package]
+name = "level-01-cargo"
+version = "0.1.0"
+edition = "2021"
+description = "Level 01: Rust 编译模型与 Cargo 生态 —— 模块系统、依赖管理、构建工具链"
+
+# WHAT: Rust 1.75+ 使用 edition = "2021"
+# CONTRAST: 类似 Go 的 go.mod 中的 go 版本行，但 Rust edition 保证向后兼容
+#           C++ 没有统一的项目描述文件（CMakeLists.txt 只描述构建）
+
+[dependencies]
+# WHAT: serde = { version = "1", features = ["derive"] }
+#       表示依赖 serde 的 1.x.y 的最新版本，并启用 "derive" feature
+# CONTRAST: npm: "serde": "^1.0.0" — 语义化版本号约定相同
+#           Go: go get github.com/BurntSushi/toml@v1 — 但 Go 的版本管理历史上很混乱
+#           C/C++: 没有统一包管理器，手写 Makefile 链接 .a/.so

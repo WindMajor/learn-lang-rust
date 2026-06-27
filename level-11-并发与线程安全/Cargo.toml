@@ -1,0 +1,5 @@
+[package]
+name = "level-11-concurrency"
+version = "0.1.0"
+edition = "2021"
+description = "Level 11: 并发与线程安全 —— thread/channel/Send/Sync"

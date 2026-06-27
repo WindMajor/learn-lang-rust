@@ -1,0 +1,22 @@
+# Rust 编译产物
+target/
+
+# Cargo 锁文件（库项目一般忽略，二进制项目建议提交）
+# 本项目包含 12 个二进制关卡，建议提交 Cargo.lock
+# Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 临时文件
+*.tmp
+*.bak

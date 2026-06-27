@@ -1,0 +1,5 @@
+[package]
+name = "level-05-struct-enum-match"
+version = "0.1.0"
+edition = "2021"
+description = "Level 05: 结构体、枚举与模式匹配"

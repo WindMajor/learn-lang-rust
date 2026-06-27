@@ -1,0 +1,5 @@
+[package]
+name = "level-03-borrowing"
+version = "0.1.0"
+edition = "2021"
+description = "Level 03: 借用与引用 —— &T、&mut T、借用规则、NLL"

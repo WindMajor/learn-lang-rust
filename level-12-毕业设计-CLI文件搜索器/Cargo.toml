@@ -1,0 +1,28 @@
+[package]
+name = "rsearch"
+version = "1.0.0"
+edition = "2021"
+description = "毕业设计：高性能 CLI 文件搜索器 —— 闯关式 Rust 学习项目"
+
+# WHAT: dependencies 声明外部依赖
+# CONTRAST: Go go.mod、TS package.json、C++ CMakeLists.txt + find_package
+
+[dependencies]
+# CLI 参数解析（类似 Go 的 flag 包、Python 的 argparse，但类型安全且编译期验证）
+clap = { version = "4", features = ["derive"] }
+
+# 正则表达式（编译期编译正则，零运行时开销）
+regex = "1"
+
+# 递归目录遍历（类似 Go filepath.Walk，但返回 Iterator）
+walkdir = "2"
+
+# 数据并行（自动分割工作到多线程，类似 Go 的 goroutine pool）
+rayon = "1"
+
+# 终端彩色输出
+colored = "2"
+
+[dev-dependencies]
+# 测试用的临时目录创建（类似 Go testing.TempDir）
+tempfile = "3"
