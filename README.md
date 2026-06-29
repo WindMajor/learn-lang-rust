@@ -22,6 +22,7 @@
 ```
 learn-lang-rust/
 ├── README.md                          # ← 你在这里
+├── level-00-前置学习/                 # 可选  基础语法速览手册（13 个模块）
 ├── level-01-编译模型与Cargo/          # 1.5h  Cargo 生态、模块系统
 ├── level-02-所有权与移动语义/         # 1.5h  所有权三规则、Move/Copy/Clone
 ├── level-03-借用与引用/               # 1.5h  &T、&mut T、借用规则

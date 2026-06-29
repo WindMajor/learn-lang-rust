@@ -1,0 +1,6 @@
+[package]
+name = "level-00-pre-learning"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
